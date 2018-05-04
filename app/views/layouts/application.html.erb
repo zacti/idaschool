@@ -6,9 +6,31 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
   <body>
+    <div class="topnav" id="myTopnav">
+      <div class="logo">
+      <a class="active" href="/"><%=image_tag("icon.png", :alt => "IDA")%></a>
+      </div>
+      <div class="text-nav">
+      <a  href="/school/about">ABOUT</a>
+      <a href="/school/work">STUDENT WORK</a>
+      <a href="/school/news">NEWS + EVENTS</a>
+      <a href="/school/contact">CONTACT US</a>
+      </div>
+    </div>
+
+
     <%= yield %>
   </body>
+<footer>
+  <div class="bottom-bar"></div>
+</footer>
 </html>

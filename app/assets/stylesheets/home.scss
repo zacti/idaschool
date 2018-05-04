@@ -1,0 +1,31 @@
+// // Place all the styles related to the home controller here.
+// // They will automatically be included in application.css.
+// // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("background.png");
+}
+
+.display-flex {
+	display: flex;
+	margin-left: 4vw;
+}
+
+.images {
+	float: left;
+}
+
+.third-section {
+	width: auto;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    color: white;
+    font-size: 15px;
+}
+
