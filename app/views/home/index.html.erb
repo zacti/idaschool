@@ -1,18 +1,19 @@
 <div class="display-flex">
 	<div class="first-section">
 	<%=image_tag("OrangeBar.png", :alt => "IDA")%>
+	
 	</div>
 	<div class="second-section">
-	<%=image_tag("Main-01.png", :alt => "IDA", :class => "text-main")%>
+	<%=link_to image_tag("Main-01.png", :alt => "IDA", :class => "text-main"), school_graphic_path%>
 	<%=image_tag("black.jpg", :alt => "IDA", :size => "151x140", :class => "images")%>
 	<%=image_tag("Main-06.png", :alt => "IDA", :class => "images", :size => "149x140")%>
 	<%=image_tag("Main-05.png", :alt => "IDA", :class => "images", :size => "270x140")%>
 	<%=image_tag("orange.png", :alt => "IDA", :size => "150x140", :class => "images")%>
 	</div>
 	<div class="third-section">
-	<%=image_tag("Main-02.png", :alt => "IDA",:size => "260x245")%>
-	<%=image_tag("black.jpg", :alt => "IDA", :size => "260x140")%>
-	<%=image_tag("Main-04.png", :alt => "IDA", :size => "260x245")%>
+	<%=link_to image_tag("Main-02.png", :alt => "IDA",:size => "260x245"), school_work_path%>
+	<%=image_tag("enrol.png", :alt => "IDA", :size => "260x140")%>
+	<%=link_to image_tag("Main-04.png", :alt => "IDA", :size => "260x245"),school_news_path%>
 	</div>
 </div>
 
