@@ -7,8 +7,9 @@ div.graphic img{
 	border-radius: 50%;
 }
 
-div.work img {
+div.work {
 	border-bottom: 5px solid black;
+	display: inline-block;
 }
 
 div.work img:hover {
